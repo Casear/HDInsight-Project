@@ -1,0 +1,8 @@
+﻿root:x:0:0:root:/root:/bin/bash
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+macoded:x:497:494:Hadoop Macodeduce:/usr/lib/hadoop-0.20:/bin/bash
+hdfs:x:496:495:Hadoop HDFS:/usr/lib/hadoop-0.20:/bin/bash
+zookeeper:x:495:493:ZooKeeper:/var/run/zookeeper:/sbin/nologin
+hbase:x:494:492:HBase:/var/run/hbase:/sbin/nologin
+oozie:x:493:491:Oozie User:/var/run/oozie:/bin/false
+hive:x:492:490:Hive:/var/lib/hive:/sbin/nologin
