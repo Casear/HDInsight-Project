@@ -18,10 +18,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="server.js" />
-    <Content Include="wordCount.js">
+    <Content Include="data\davinci.txt">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="data\passwd.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="data\sample.log">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mapReduce.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
